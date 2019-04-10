@@ -7,7 +7,8 @@
 - Principal Component Analysis (PCA)
 - Multi-Dimensional Scaling (MDS)
 - Sammon Mapping
-- Graph based techniques\n
+- Graph based techniques
+
 I also have a repository on PCA. Check it out here: https://github.com/deveshSingh06/Principal-Component-Analysis-PCA-on-MNIST-dataset
 
 ## Difference between PCA and t-SNE:
