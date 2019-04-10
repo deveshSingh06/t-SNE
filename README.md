@@ -1,3 +1,8 @@
+## About MNIST
+- MNIST dataset consist of 60k handwritten images of numbers from 0-9 and is commonly used for training various image processing systems.
+- It can be downloaded from: https://www.kaggle.com/c/digit-recognizer/data
+- For more information on MNIST dataset, visit: https://en.wikipedia.org/wiki/MNIST_database
+
 ## About t-SNE
 - T-distributed Stochastic Neighbour Embedding (t-SNE) is a machine learning algorithm for visualization developed by Laurens van der Maaten and Geoffrey Hinton.
 - The very first research paper for t-SNE was published in  2008.
