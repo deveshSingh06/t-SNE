@@ -1,4 +1,4 @@
-## About MNIST
+## About MNIST Dataset
 - MNIST dataset consist of 60k handwritten images of numbers from 0-9 and is commonly used for training various image processing systems.
 - It can be downloaded from: https://www.kaggle.com/c/digit-recognizer/data
 - For more information on MNIST dataset, visit: https://en.wikipedia.org/wiki/MNIST_database
