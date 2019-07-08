@@ -1,7 +1,7 @@
 ## About MNIST Dataset
 - MNIST dataset consist of 60k handwritten images of numbers from 0-9 and is commonly used for training various image processing systems.
-- It can be downloaded from: https://www.kaggle.com/c/digit-recognizer/data
-- For more information on MNIST dataset, visit: https://en.wikipedia.org/wiki/MNIST_database
+- It can be downloaded from [here](https://www.kaggle.com/c/digit-recognizer/data).
+- For more information on MNIST dataset, visit this [page](https://en.wikipedia.org/wiki/MNIST_database).
 
 ## About t-SNE
 - T-distributed Stochastic Neighbour Embedding (t-SNE) is a machine learning algorithm for visualization developed by Laurens van der Maaten and Geoffrey Hinton.
@@ -14,7 +14,7 @@
 - Sammon Mapping
 - Graph based techniques
 
-I also have a repository on PCA. Check it out here: https://github.com/deveshSingh06/Principal-Component-Analysis-PCA-on-MNIST-dataset
+I also have a repository on PCA. Check it out [here](https://github.com/deveshSingh06/Principal-Component-Analysis-PCA-on-MNIST-dataset).
 
 ## Difference between PCA and t-SNE:
 The difference between PCA and t-SNE is that PCA preserves only the global structure of data while t-SNE preserves the local structure of the data.
