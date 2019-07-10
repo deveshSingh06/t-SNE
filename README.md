@@ -4,9 +4,11 @@
 - For more information on MNIST dataset, visit this [page](https://en.wikipedia.org/wiki/MNIST_database).
 
 ## About t-SNE
-- T-distributed Stochastic Neighbour Embedding (t-SNE) is a machine learning algorithm for visualization developed by Laurens van der Maaten and Geoffrey Hinton.
+- t-SNE stands for T-distributed Stochastic Neighbour Embedding.
+- It is a machine learning algorithm for visualization developed by Laurens van der Maaten and Geoffrey Hinton.
 - The very first research paper for t-SNE was published in  2008.
 - t-SNE is very good for visualization in 2-d.
+- t-SNE is neighbuorhood preserving embedding.
 
 ## Some other dimensionality reduction technques are:
 - Principal Component Analysis (PCA)
@@ -26,5 +28,10 @@ I also have a repository on PCA. Check it out [here](https://github.com/deveshSi
 
 ## Geometric interpretation of t-SNE:
 - In t-SNE, the distances between a given point, in d-dimensions, and the points in its neighbourhood are preserved.
-- When the given point is embedded to a point in 2-d, the actual distances between the given point and the points in its neighbourhood are similar(might be same or slightly different) to the distances that were in d-dimensions.
+- When a given point is embedded to a point in 2-d, the actual distances between the given point and the points in its neighbourhood are similar(might be same or slightly different) to the distances that were in d-dimensions.
 - Also, there is NO GAURANTEE that the distances between the given point and the points NOT in its neighbourhood are preserved/similar.
+
+## Limitations of t-SNE
+- Sometimes it is impossible to preserve the distances in all the  neighbourhood(especially in the case hypercubes). This problem is called the *crowding problem*. 
+- There is NO GAURANTEE that the distances between the given point and the points NOT in its neighbourhood are preserved/similar.
+- Since t-SNE is not a deterministic alogrithm but a *stochastic/probabilistic algorithm*, the results could be slightly different everytime it is applied.
