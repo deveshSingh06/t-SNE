@@ -32,6 +32,6 @@ I also have a repository on PCA. Check it out [here](https://github.com/deveshSi
 - Also, there is NO GAURANTEE that the distances between the given point and the points NOT in its neighbourhood are preserved/similar.
 
 ## Limitations of t-SNE
-- Sometimes it is impossible to preserve the distances in all the  neighbourhood(especially in the case hypercubes). This problem is called the *crowding problem*. 
+- Sometimes it is impossible to preserve the distances in all the  neighbourhood(especially in the case of hypercubes). This problem is called the *crowding problem*. 
 - There is NO GAURANTEE that the distances between the given point and the points NOT in its neighbourhood are preserved/similar.
 - Since t-SNE is not a deterministic alogrithm but a *stochastic/probabilistic algorithm*, the results could be slightly different everytime it is applied.
