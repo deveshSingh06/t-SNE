@@ -17,7 +17,8 @@
 I also have a repository on PCA. Check it out [here](https://github.com/deveshSingh06/Principal-Component-Analysis-PCA-on-MNIST-dataset).
 
 ## Difference between PCA and t-SNE:
-The difference between PCA and t-SNE is that PCA preserves only the global structure of data while t-SNE preserves the local structure of the data.
+- One of the prime differences between PCA and t-SNE is that PCA preserves only the global structure of the data while t-SNE preserves the local structure of the data and can choose to preserve the global structure as well.
+- PCA only cares about the direction that maximizes variance and not distances between points. On the other hand, t-SNE preserves the local structure by keeping the distances between points intact.
 
 ## Main terms in t-SNE:
 - Neighbourhood: The neighbourhood of a given point are the points that fall under a given distance from that point.
