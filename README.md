@@ -28,7 +28,7 @@ I also have a repository on PCA. Check it out [here](https://github.com/deveshSi
 
 ## Geometric interpretation of t-SNE:
 - In t-SNE, the distances between a given point, in d-dimensions, and the points in its neighbourhood are preserved.
-- When a given point is embedded to a point in 2-d, the actual distances between the given point and the points in its neighbourhood are similar(might be same or slightly different) to the distances that were in d-dimensions.
+- When a given point is embedded to a point in low-dimensions(say 2-d), the actual distances between the given point and the points in its neighbourhood are similar(might be same or slightly different) to the distances that were in d-dimensions(d >>> 2).
 - Also, there is NO GAURANTEE that the distances between the given point and the points NOT in its neighbourhood are preserved/similar.
 
 ## Limitations of t-SNE
