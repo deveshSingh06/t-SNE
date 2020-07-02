@@ -1,7 +1,7 @@
 ## About t-SNE
 - t-SNE stands for T-distributed Stochastic Neighbour Embedding.
-- It is a machine learning algorithm for visualization developed by Laurens van der Maaten and Geoffrey Hinton.
-- The very first research paper for t-SNE was published in  2008.
+- It is a machine learning algorithm for dimensioanlity reduction and used for visualization.
+- The very first research paper for t-SNE was published in  2008 by Laurens van der Maaten and Geoffrey Hinton
 - t-SNE is very good for visualization in 2-d.
 - t-SNE is neighbuorhood preserving embedding.
 
